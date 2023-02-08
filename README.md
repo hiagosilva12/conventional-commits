@@ -6,7 +6,7 @@ O GitFlow é uma metodologia de gerenciamento de branch que ajuda a equipe a ger
 
 - `master`: branch principal que contém a versão mais estável do software.
 
-- `develop-binocular`: branch de desenvolvimento principal que contém o código em desenvolvimento.
+- `develop`: branch de desenvolvimento principal que contém o código em desenvolvimento.
 
 ## Branches secundárias
 
@@ -20,21 +20,21 @@ O GitFlow é uma metodologia de gerenciamento de branch que ajuda a equipe a ger
 
 ## Fluxo de trabalho
 
-- Crie uma nova branch de feat a partir da branch develop-binocular.
+- Crie uma nova branch de feat a partir da branch develop.
 
 - Desenvolva e teste a nova funcionalidade na branch de feat.
 
-- Mescle a branch de feat de volta para a branch develop-binocular.
+- Mescle a branch de feat de volta para a branch develop.
 
-- Crie uma nova branch de release a partir da branch develop-binocular quando estiver pronto para lançar uma nova versão.
+- Crie uma nova branch de release a partir da branch develop quando estiver pronto para lançar uma nova versão.
 
 - Teste a nova versão na branch de release e corrija quaisquer problemas encontrados.
 
-- Mescle a branch de release de volta para a branch develop-binocular e master.
+- Mescle a branch de release de volta para a branch develop e master.
 
 - Crie uma nova branch de hotfix a partir da branch master se for necessário corrigir um problema crítico.
 
-- Corrija o problema na branch de hotfix e mescle de volta para as branches develop-binocular e master.
+- Corrija o problema na branch de hotfix e mescle de volta para as branches develop e master.
 
 ## Coventional Commits
 
